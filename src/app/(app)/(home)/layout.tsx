@@ -1,6 +1,7 @@
 import Footer from './footer';
 import Navbar from './navbar';
 
+
 interface props{
   children: React.ReactNode;
 }

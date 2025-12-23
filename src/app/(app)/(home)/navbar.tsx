@@ -5,9 +5,9 @@ import { Poppins } from "next/font/google"
 import { cn } from "@/lib/utils"
 import { Button } from "@/components/ui/button"
 import { usePathname } from "next/navigation"
-import NavbarSidebar from "./navbar_sidebar"
 import { useState } from "react"
 import { MenuIcon } from "lucide-react"
+import NavbarSidebar from "./navbar_sidebar"
 
 const poppins = Poppins({
   subsets: ['latin'],
