@@ -8,7 +8,7 @@ interface Props {
 export default function Categories({ data }: Props) {
   return (
     <div className="relative w-full">
-
+      
       <div className="flex flex-nowrap items-center">
         {data.map((category: Category)=>(
         <div key={category.id}>
@@ -20,7 +20,7 @@ export default function Categories({ data }: Props) {
         </div>
       ))}
       </div>
-
+      
     </div>
   )
 }
